@@ -1,6 +1,7 @@
 # NewPineExample
 
 - [AndroidIDE](https://m.androidide.com/) project
+- To import for Android Studio you can change just few things in settings gradle and gradle inside `/app`
 - Instead of using `AppComponentFactory`, this uses `.MyApplication` (i.e, `android:name`) for loading library
 - loading [pine](https://github.com/canyie/pine) library from assets
 - needs only one class rather than using different classes unlike `AppComponentFactory` method to load libs
