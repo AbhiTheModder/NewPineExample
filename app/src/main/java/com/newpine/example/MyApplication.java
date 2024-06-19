@@ -34,6 +34,16 @@ public class MyApplication extends Application {
         // Get the AssetManager to access the files in the assets folder
         AssetManager assetManager = context.getAssets();
 
+            // uncomment and Use below commented code when you've libraries just under path NATIVE_LIB_DIR and you don't wanna check for architecture specific libs
+            // For more understanding read README.md present in this directory
+
+            // Get the list of native libraries in the assets folder
+            // String[] libs = assetManager.list(NATIVE_LIB_DIR);
+
+            // Copy each native library to the app's data directory
+            // for (String lib : libs) {
+             //   InputStream in = assetManager.open(NATIVE_LIB_DIR + "/" + lib);
+
         // Get the list of the device's supported ABIs
         String[] supportedAbis = Build.SUPPORTED_ABIS;
 
