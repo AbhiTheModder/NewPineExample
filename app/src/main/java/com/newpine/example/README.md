@@ -1,5 +1,5 @@
 > [!NOTE]
-> The code used in this directory `.MyApplication` requires this type of placement for libraries to be able to identify and load the libraries by identifying user specific architecture:
+> The code used in this directory `MyApplication.java` requires this type of placement for libraries to be able to identify and load the libraries by identifying user specific architecture:
 ```plaintext
 assets/
 └── lib
@@ -9,14 +9,14 @@ assets/
         └── libpine.so
 ```
 
-Now in case you kisi want a single library like `assets/lib/libpine.so`:
+Now in case you want a single library like `assets/lib/libpine.so`:
 ```plaintext
 assets/
 └── lib
     └── libpine.so
 ```
 
-for that you can modify `MyApplication.java` where it's checking device architecture for user like:
+for that you can modify `MyApplication.java` where it's checking device architecture for user to:
 
 ```java
             AssetManager assetManager = context.getAssets();
