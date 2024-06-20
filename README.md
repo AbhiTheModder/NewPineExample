@@ -5,7 +5,7 @@
 - Instead of using `AppComponentFactory`, this uses `.MyApplication` (i.e, `android:name`) for loading library
 - loading [pine](https://github.com/canyie/pine) library from assets
     - By default architecture specific
-    - if you want to load specific library without checking for specific arch [read](https://github.com/AbhiTheModder/NewPineExample/blob/main/app%2Fsrc%2Fmain%2Fjava%2Fcom%2Fnewpine%2Fexample%2FREADME.md)
+    - if you want to load specific library without checking for specific arch [read](/app/src/main/java/com/newpine/example/README.md)
 - needs only one class rather than using different classes unlike `AppComponentFactory` method to load libs
 - Load libraries based on arch of user system automatically
 
