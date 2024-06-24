@@ -2,7 +2,7 @@
 
 - [AndroidIDE](https://m.androidide.com/) project
 - To import for Android Studio you can change just few things in settings gradle and gradle inside `/app`
-- Instead of using `AppComponentFactory`, this uses `.MyApplication` (i.e, `android:name`) for loading library
+- Instead of using `AppComponentFactory`, this uses `.MyApplication` (i.e, `android:name`[Manifest] or `.super`[Smali]) for loading library
 - loading [pine](https://github.com/canyie/pine) library from assets
     - By default architecture specific
     - if you want to load specific library without checking for specific arch [read](/app/src/main/java/com/newpine/example/README.md)
