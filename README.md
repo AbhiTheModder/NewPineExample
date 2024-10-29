@@ -6,7 +6,7 @@
 - loading [pine](https://github.com/canyie/pine) library from assets
     - By default architecture specific
     - if you want to load specific library without checking for specific arch [read](/app/src/main/java/com/newpine/example/README.md)
-- needs only one class rather than using different classes unlike `AppComponentFactory` method to load libs
+- needs only one class rather than using different classes unlike `AppComponentFactory` method (check [this](https://github.com/AbhiTheModder/Fine/blob/main/app/src/main/java/com/abhi/pineexample/Loader.java) project in case you wanna see how that is done) to load libs
 - Load libraries based on arch of user system automatically
 
 > [!NOTE]
