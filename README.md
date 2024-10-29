@@ -9,5 +9,8 @@
 - needs only one class rather than using different classes unlike `AppComponentFactory` method (check [this](https://github.com/AbhiTheModder/Fine/blob/main/app/src/main/java/com/abhi/pineexample/Loader.java) project in case you wanna see how that is done) to load libs
 - Load libraries based on arch of user system automatically
 
+> [!TIP]
+> If you're looking for [Android Studio](https://developer.android.com/studio) Version of this check out [studio](https://github.com/AbhiTheModder/NewPineExample/tree/studio) branch of this repo.
+
 > [!NOTE]
 > This is just an approach to showcase we can use `android:name` attribute also for hooking our target apps
