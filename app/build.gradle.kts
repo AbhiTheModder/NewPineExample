@@ -34,7 +34,6 @@ android {
 
     buildFeatures {
         viewBinding = true
-        
     }
     
 }
@@ -46,5 +45,5 @@ dependencies {
     implementation("androidx.core:core:1.7.0")
     implementation("com.google.android.material:material:1.9.0")
     implementation("androidx.constraintlayout:constraintlayout:2.1.4")
-    implementation("top.canyie.pine:core:0.2.9")
+    implementation(libs.pine)
 }

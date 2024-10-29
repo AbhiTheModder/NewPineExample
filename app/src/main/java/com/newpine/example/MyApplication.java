@@ -1,16 +1,15 @@
 package com.newpine.example;
 
+import android.annotation.SuppressLint;
 import android.app.Application;
 import android.content.Context;
 import android.content.res.AssetManager;
 import android.os.Build;
-import androidx.core.app.AppComponentFactory;
 import java.io.File;
 import java.io.FileOutputStream;
 import java.io.IOException;
 import java.io.InputStream;
 
-import java.lang.reflect.Field;
 import java.lang.reflect.Method;
 
 import top.canyie.pine.Pine;
@@ -20,6 +19,7 @@ public class MyApplication extends Application {
     // Name of the folder inside assets/ containing your libs    
     private static final String NATIVE_LIB_DIR = "lib";
 
+    @SuppressLint("UnsafeDynamicallyLoadedCode")
     public static void loadNativeLibraries(Context context) {
     try {
         // Get the data directory of the app
